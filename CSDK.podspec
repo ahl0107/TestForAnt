@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author       = { 'carrier-dev' => 'support@elastos.org' }
   s.platform     = :ios, '9.0'
   s.ios.deployment_target = '9.0'
-  s.source       = {'http':'https://github.com/ahl0107/TestForAnt/releases/download/1.8/PreElastosCarrier-framework.zip'}
+  s.source       = {'http':'https://github.com/ahl0107/TestForAnt/releases/download/1.8.0/C-framework.zip'}
   s.vendored_frameworks = 'PreElastosCarrier-framework/ElastosCarrierSDK.xcframework'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
