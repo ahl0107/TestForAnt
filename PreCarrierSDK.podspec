@@ -8,17 +8,17 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = 'PreCarrierSDK'
-  s.version      = '5.3.4'
-  s.summary      = 'Elastos Carrier iOS SDK Distribution.'
+  s.name         = 'CSDK'
+  s.version      = '1.8.0'
+  s.summary      = 'Test for carrier.'
   s.swift_version = '4.0'
-  s.description  = 'Elastos carrier ios sdk framework distribution.'
-  s.homepage     = 'https://www.elastos.org'
+  s.description  = 'Test for carrier ios.'
+  s.homepage     = 'https://github.com/ahl0107/TestForAnt/releases'
   s.license      = { :type => 'GPLv3', :file => 'PreElastosCarrier-framework/LICENSE' }
   s.author       = { 'carrier-dev' => 'support@elastos.org' }
   s.platform     = :ios, '9.0'
   s.ios.deployment_target = '9.0'
-  s.source       = {'http':'https://github.com/ahl0107/TestForAnt/releases/download/1.7/PreElastosCarrier-framework.zip'}
+  s.source       = {'http':'https://github.com/ahl0107/TestForAnt/releases/download/1.8/PreElastosCarrier-framework.zip'}
   s.vendored_frameworks = 'PreElastosCarrier-framework/ElastosCarrierSDK.xcframework'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
